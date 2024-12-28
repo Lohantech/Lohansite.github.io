@@ -484,6 +484,8 @@ ul.email li i {
 }
 
 #carouselExampleIndicators .carousel-control-next:focus,
+#carouselExampleIndicators .carousel-control-next:hover,
+#carouselExampleIndicators .carousel-control-prev:focus,
 #carouselExampleIndicators .carousel-control-prev:hover {
      background-color: #8C52FF;
      color: #fff;
@@ -711,8 +713,6 @@ ul.email li i {
 }
 
 #myCarousel a.carousel-control-next:focus,
-#myCarousel a.carousel-control-next:hover,
-#myCarousel a.carousel-control-prev:focus,
 #myCarousel a.carousel-control-prev:hover {
      color: #fff;
      background: #8C52FF;
