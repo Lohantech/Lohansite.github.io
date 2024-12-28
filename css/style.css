@@ -463,8 +463,6 @@ ul.email li i {
 }
 
 #carouselExampleIndicators .carousel-control-prev,
-#carouselExampleIndicators .carousel-control-next
-#carouselExampleIndicators .carousel-control-prev,
 #carouselExampleIndicators .carousel-control-next {
      width: 66px;
      height: 66px;
@@ -472,31 +470,35 @@ ul.email li i {
      color: #fff;
      font-size: 15px;
      opacity: 1;
-     border-radius: 50px;
-     top: 100%;
+     font-size: 15px;
+     opacity: 1;
+     transform: translateY(-40px); 
+     bottom: 20px;
+     top: 90%;
 }
 
 #carouselExampleIndicators .carousel-control-prev {
-     left: 4%;
+     left: 46%;
 }
 
 #carouselExampleIndicators .carousel-control-next {
-     right: inherit;
-     left: 10%;
+     left: 54%;
 }
 
 #carouselExampleIndicators .carousel-control-next:focus,
+#carouselExampleIndicators .carousel-control-next:hover,
+#carouselExampleIndicators .carousel-control-prev:focus,
 #carouselExampleIndicators .carousel-control-prev:hover {
      background-color: #8C52FF;
      color: #fff;
 }
 
 .banner_img {
-     padding-right: 50px;
+     padding-right: 45px;
 }
 
 .banner_img figure {
-     margin: 0;
+     margin: 10;
 }
 
 
@@ -693,8 +695,6 @@ ul.email li i {
 }
 
 #myCarousel a.carousel-control-next,
-#myCarousel a.carousel-control-prev
-#myCarousel a.carousel-control-next,
 #myCarousel a.carousel-control-prev {
      background: #302C2C;
      width: 72px;
@@ -715,6 +715,8 @@ ul.email li i {
 }
 
 #myCarousel a.carousel-control-next:focus,
+#myCarousel a.carousel-control-next:hover,
+#myCarousel a.carousel-control-prev:focus,
 #myCarousel a.carousel-control-prev:hover {
      color: #fff;
      background: #8C52FF;
@@ -1010,7 +1012,7 @@ ul.social_icon li a:hover {
 /**  inner page css **/
 
 .inner_page .header {
-     box-shadow: 0 0 10px #8C52FF;
+     box-shadow: 0 0 10px #8C52FF(240, 57, 15);
      margin-bottom: 10px;
      position: inherit;
 }
@@ -1078,7 +1080,7 @@ ul.social_icon li a:hover {
      height: 155px;
      border-radius: 11px;
      border: inherit;
-     box-shadow: 0px 0px 2px 0#8C52FF;
+     box-shadow: 0px 0px 2px 0 #8C52FF;
 }
 
 .main_form .send_btn {
@@ -1107,5 +1109,6 @@ ul.social_icon li a:hover {
      color: #501f14;
      opacity: 1;
 }
+
 
 /** end contact **/
