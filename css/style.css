@@ -693,6 +693,8 @@ ul.email li i {
 }
 
 #myCarousel a.carousel-control-next,
+#myCarousel a.carousel-control-prev
+#myCarousel a.carousel-control-next,
 #myCarousel a.carousel-control-prev {
      background: #302C2C;
      width: 72px;
