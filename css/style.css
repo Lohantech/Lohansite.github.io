@@ -471,7 +471,7 @@ ul.email li i {
      font-size: 15px;
      opacity: 1;
      border-radius: 50px;
-     top: 100%;
+     top: 90%; /* Remettre les boutons à leur position précédente */
 }
 
 #carouselExampleIndicators .carousel-control-prev {
@@ -491,6 +491,7 @@ ul.email li i {
      color: #fff;
 }
 
+
 .banner_img {
      padding-right: 50px;
 }
@@ -499,15 +500,21 @@ ul.email li i {
      margin: 0;
 }
 
+.hover-effect img {
+     transition: 0.3s ease; /* Pour une transition en douceur */
+}
+
+.hover-effect img:hover {
+     filter: grayscale(100%); /* Applique un filtre gris */
+     opacity: 0.8; /* Rend l'image légèrement transparente */
+}
 
 /** end banner section **/
-
-
-/** our class **/
 
 .class {
      padding: 140px 0px 60px 0px;
 }
+
 
 .class .titlepage p {
      font-size: 17px;
@@ -1107,3 +1114,5 @@ ul.social_icon li a:hover {
 }
 
 /** end contact **/
+
+  
