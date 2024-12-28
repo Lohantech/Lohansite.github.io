@@ -477,19 +477,28 @@ ul.email li i {
      top: 90%;
 }
 
+/* ...existing code... */
+
+.banner_img:hover img {
+     filter: blur(2px) grayscale(30%);
+     opacity: 0.7;
+ }
+ 
+ /* ...existing code... */ 
+
 #carouselExampleIndicators .carousel-control-prev {
-     left: 46%;
+     left: 45%;
 }
 
 #carouselExampleIndicators .carousel-control-next {
-     left: 54%;
+     left: 55%;
 }
 
 #carouselExampleIndicators .carousel-control-next:focus,
 #carouselExampleIndicators .carousel-control-next:hover,
 #carouselExampleIndicators .carousel-control-prev:focus,
 #carouselExampleIndicators .carousel-control-prev:hover {
-     background-color: #8C52FF;
+     background-color: #6B3FCB;
      color: #fff;
 }
 
