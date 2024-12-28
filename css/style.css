@@ -463,6 +463,8 @@ ul.email li i {
 }
 
 #carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-next
+#carouselExampleIndicators .carousel-control-prev,
 #carouselExampleIndicators .carousel-control-next {
      width: 66px;
      height: 66px;
