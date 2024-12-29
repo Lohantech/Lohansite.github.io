@@ -1141,3 +1141,22 @@ ul.social_icon li a:hover {
      }
  }
 
+/* Assurez-vous que le conteneur parent du carrousel a une position relative */
+.carousel {
+    position: relative !important;
+}
+
+/* Styles pour les boutons du carrousel sur les appareils mobiles */
+@media (max-width: 768px) {
+    .carousel-buttons {
+        position: absolute !important; /* Utilisation de absolute pour positionner les boutons par rapport au conteneur parent */
+        bottom: 10px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        display: flex !important;
+        justify-content: center !important;
+        width: auto !important;
+        z-index: 1000 !important; /* Assurez-vous que les boutons apparaissent au-dessus des autres éléments */
+    }
+}
+
