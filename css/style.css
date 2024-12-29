@@ -475,7 +475,7 @@ ul.email li i {
      transform: translateY(-40px); 
      bottom: 20px;
      top: 90%;
-     position: absolute;
+     position: static;
 }
 
 /* ...existing code... */
