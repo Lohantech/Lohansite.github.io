@@ -1,0 +1,259 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f0f0f0;
+            font-family: "MS PGothic", "Osaka", sans-serif;
+            font-size: 12px;
+            color: #000000;
+        }
+
+        /* Container */
+        .container {
+            max-width: 750px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+
+        /* Header simple */
+        .header {
+            background-color: #99ccff;
+            padding: 0 auto;
+            border-bottom: 2px solid #6699cc;
+
+        }
+
+        /* Info bar */
+        .info-bar {
+            background-color: #ffffcc;
+            padding: 5px 10px;
+            font-size: 10px;
+            text-align: right;
+            border-bottom: 1px solid #ccccaa;
+        }
+
+        /* Update notice */
+        .update-notice {
+            background-color: #e6f2ff;
+            padding: 8px 15px;
+            font-size: 11px;
+            border-bottom: 1px solid #99ccff;
+            text-align: center;
+            color: #0066cc;
+        }
+
+        /* Main table layout */
+        .main-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .main-table td {
+            vertical-align: top;
+            padding: 0;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 150px;
+            background-color: #f5f5f5;
+            border-right: 1px solid #cccccc;
+            padding: 10px;
+        }
+
+        .menu-box {
+            background-color: #ffffff;
+            border: 1px solid #999999;
+            margin-bottom: 15px;
+        }
+
+        .menu-title {
+            background-color: #ff9999;
+            color: #ffffff;
+            padding: 5px 8px;
+            font-size: 11px;
+            font-weight: bold;
+            border-bottom: 1px solid #cc6666;
+        }
+
+        .menu-content {
+            padding: 8px;
+        }
+
+        .menu-content a {
+            display: block;
+            padding: 4px 0;
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 11px;
+        }
+
+        .menu-content a:hover {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+
+        .menu-content a::before {
+            content: "・";
+        }
+
+        /* Counter simple */
+        .counter-box {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .counter {
+            background-color: #000000;
+            color: #00ff00;
+            padding: 8px;
+            font-family: "Courier New", monospace;
+            font-size: 14px;
+            border: 1px solid #333333;
+            letter-spacing: 2px;
+        }
+
+        /* Mail */
+        .mail-box {
+            padding: 8px;
+        }
+
+        .menu-box a {
+            display: block;
+            padding: 4px 0;
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 11px;
+        }
+
+        .menu-box a:hover {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+
+        .mail-box a::before {
+            content: "・";
+        }
+
+        /* Content area */
+        .content {
+            padding: 15px;
+        }
+
+        /* Section simple */
+        .section {
+            margin-bottom: 25px;
+            border: 1px solid #cccccc;
+            background-color: #fafafa;
+        }
+
+        .section-title {
+            background-color: #99ccff;
+            color: #003366;
+            padding: 6px 10px;
+            font-size: 13px;
+            font-weight: bold;
+            border-bottom: 1px solid #6699cc;
+        }
+
+        .section-content {
+            padding: 12px;
+        }
+
+        /* Photo simple */
+        .photo {
+            border: 1px solid #999999;
+            padding: 5px;
+            background-color: #ffffff;
+            margin: 10px 0;
+        }
+
+        .photo img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .photo-text {
+            padding: 8px;
+            font-size: 11px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            border-top: 1px solid #dddddd;
+            margin-top: 5px;
+        }
+
+        /* Date */
+        .date {
+            background-color: #ffeeee;
+            border-left: 3px solid #ff6666;
+            padding: 5px 10px;
+            font-size: 10px;
+            margin: 10px 0;
+            color: #cc0000;
+        }
+
+        /* Simple table */
+        table.info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        table.info-table th {
+            background-color: #cccccc;
+            padding: 5px;
+            border: 1px solid #999999;
+            font-size: 11px;
+            text-align: left;
+        }
+
+        table.info-table td {
+            background-color: #ffffff;
+            padding: 5px;
+            border: 1px solid #cccccc;
+            font-size: 11px;
+        }
+
+        /* Footer simple */
+        footer {
+            background-color: #99ccff;
+            color: #003366;
+            padding: 15px;
+            text-align: center;
+            border-top: 2px solid #6699cc;
+            font-size: 10px;
+        }
+
+        footer a {
+            color: #003366;
+            text-decoration: none;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px dotted #cccccc;
+            margin: 15px 0;
+        }
+
+        @media (max-width: 768px) {
+            .main-table {
+                display: block;
+            }
+            .sidebar {
+                width: 100%;
+                border-right: none;
+                border-bottom: 1px solid #cccccc;
+            }
+        }
+
+        /* Texte défilant */
+        marquee {
+            background-color: #ffffcc;
+            padding: 5px;
+            border: 1px solid #ffcc00;
+            margin: 10px 0;
+            color: #cc0000;
+        }
